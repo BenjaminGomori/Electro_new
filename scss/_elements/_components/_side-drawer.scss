@@ -1,0 +1,23 @@
+.side-drawer {
+	@media (min-width: 971px) {
+		transform: translateX(0rem) !important;
+		opacity: 1 !important;
+	}
+	@media (max-width: 970px) {
+		position: absolute;
+		z-index: 110;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-areas: ' nav ';
+		top: 7rem;
+		left: 0px;
+		height: 300px;
+		width: 180px;
+		background-color: rgb(43, 43, 44);
+		justify-items: center;
+		align-items: center;
+		transform: translateX(-12rem);
+		transition: opacity 0.35s ease-out;
+		opacity: 0;
+	}
+}

@@ -1,0 +1,10 @@
+.grid-products {
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	column-gap: 3rem;
+	row-gap: 4rem;
+	align-items: center;
+	background-color: white;
+	justify-items: center;
+}

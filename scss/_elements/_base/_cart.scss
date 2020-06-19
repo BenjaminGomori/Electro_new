@@ -1,0 +1,14 @@
+.cart {
+	height: 1.7rem;
+	width: 1.7rem;
+	opacity: 0.85;
+
+	&:hover {
+		cursor: pointer;
+		opacity: 0.6;
+	}
+
+	&-no-hover {
+		pointer-events: none;
+	}
+}

@@ -1,0 +1,12 @@
+.cart-items {
+	text-align: center;
+
+	&__btn-checkout {
+		margin-top: -1.5rem;
+		text-align: end;
+
+		@media (min-width: 730px) {
+			padding-right: 0.7rem;
+		}
+	}
+}

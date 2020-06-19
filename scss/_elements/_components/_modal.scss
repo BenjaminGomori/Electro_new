@@ -1,0 +1,48 @@
+.modal {
+	z-index: 2;
+	width: 20rem;
+	padding: 1rem;
+	padding-bottom: 1.6rem;
+	text-align: center;
+	background-color: #111;
+	color: white;
+	box-shadow: 2px 6px 10px 1px #00000087;
+
+	&:hover {
+		cursor: auto;
+	}
+
+	&__content {
+		padding: 1rem;
+		text-align: center;
+
+		&__title {
+			padding: 0.3rem;
+			font-weight: bold;
+			font-size: 1.3rem;
+		}
+
+		&__img {
+			height: 11rem;
+			width: 14.2rem;
+			display: block;
+			margin: 0.7rem auto 0.5rem auto;
+		}
+		&__label {
+			padding: 0.3rem;
+			display: inline-block;
+			width: 3rem;
+		}
+
+		&__amount {
+			text-align: right;
+			width: 3rem;
+			padding: 0.3rem;
+		}
+
+		&__total {
+			display: inline-block;
+			margin-left: 0.7rem;
+		}
+	}
+}

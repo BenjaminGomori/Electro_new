@@ -1,0 +1,14 @@
+.btn-cart-remove {
+	margin-top: 0.5rem;
+	text-align: center;
+	font-size: 0.92rem;
+
+	&__p {
+		text-decoration: underline;
+		color: rgb(12, 122, 27);
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

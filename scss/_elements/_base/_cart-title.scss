@@ -1,0 +1,11 @@
+.cart-title {
+	font-size: 3.5rem;
+	margin-bottom: 3.4rem;
+	color: rgb(51, 45, 45);
+	letter-spacing: 6px;
+
+	@media (max-width: 740px) {
+		font-size: 2.5rem;
+		margin-bottom: 2rem;
+	}
+}

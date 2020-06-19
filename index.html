@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="E-commerce for electronic devices including cameras, laptops, and  mobile devices."
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Electro</title>
+		<link rel="stylesheet" href="scss/main.css" />
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+		<script src="./assets/scripts/App.js" type="module" defer></script>
+	</head>
+
+	<body>
+		<div class="backdrop"></div>
+		<div class="center-modal is-not-displayed">
+			<div class="modal">
+				<div class="modal__content">
+					<p class="modal__content__title"></p>
+					<img class="modal__content__img" src="" alt="product" />
+					<label class="modal__content__label" for="m-amount">
+						<input
+							class="modal__content__amount"
+							type="number"
+							min="1"
+							id="m-amount"
+							name=""
+						/>
+					</label>
+					<p class="modal__content__total"></p>
+				</div>
+				<div class="modal__add-cart">
+					<div class="btn-add-to-cart">ADD TO CART</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="grid-page">
+			<header class="grid-page__header">
+				<div class="header">
+					<div class="header__btn-burger">
+						<div class="btn-burger">
+							<div class="btn-burger__line"></div>
+							<div class="btn-burger__line"></div>
+							<div class="btn-burger__line"></div>
+						</div>
+					</div>
+					<div class="header__logo">
+						<img
+							class="logo"
+							src="./images/logo/Electro_Logo_Vc_c1.png"
+							alt="logo"
+						/>
+					</div>
+					<nav class="header__nav side-drawer">
+						<ul class="nav">
+							<il class="nav__item">
+								<div class="nav__link disabled-link">Cameras</div>
+							</il>
+							<il class="nav__item">
+								<div class="nav__link">Laptops</div>
+							</il>
+							<il class="nav__item">
+								<div class="nav__link">Phones</div>
+							</il>
+							<il class="nav__item">
+								<div class="nav__link nav__link-cart">Cart</div>
+							</il>
+						</ul>
+					</nav>
+					<div class="header__cart">
+						<img
+							class="cart"
+							src="./images/icons/from_uxwing_website/cart_line.png"
+							alt="cart"
+						/>
+						<div class="cart-item-counter">
+							<div class="cart-item-counter__num">0</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- only 1 main displays -->
+			<main class="grid-page__content"></main>
+			<main class="grid-page__content-cart-page"></main>
+
+			<footer class="grid-page__footer">
+				<div class="footer">
+					<div class="footer__header-address">
+						<p class="footer__header-address__title">
+							Contact Us
+						</p>
+						<p class="footer__header-address__p">
+							Electro 1009 E. Electro Ave. TA 92001
+						</p>
+					</div>
+					<div class="footer__header-author">
+						<p class="footer__header-author__title">Developed By</p>
+						<div class="footer__header-author__name">
+							<a
+								class="footer__header-author__link"
+								href="http://benjamingomori.com/"
+								target="_blank"
+								,
+								rel="noopener"
+								>Benjamin Gomori</a
+							>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

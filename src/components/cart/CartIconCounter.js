@@ -5,13 +5,6 @@ export default class CartIconCounter {
 		this._currentVal = 0;
 	}
 
-	// setValue(val) {
-	// 	this.numElement.innerHTML = null; //TODO
-	// 	this.numElement.innerHTML = '' + val; //TODO
-	// 	this._currentVal = +val;
-	// 	this.shouldDisplayOrNot();
-	// }
-
 	adjustValue(amount) {
 		this.numElement.innerHTML = null; //TODO
 		this._currentVal += +amount;

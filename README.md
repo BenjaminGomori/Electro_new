@@ -1,10 +1,14 @@
 # Electro_new
 
-Electo is an E-commerce front end project. Electo is a Single Page Application built using modern JavaScript syntax such as arrow function classes etc.
-The main structure of the page is built with CSS grid and flex box.
+Electo is an E-commerce front end Single Page Application, and it uses the local storage to manage cart data.
+In the application I make use of modern JavaScript syntax (such as classes, arrow functions etc.), and CSS’s grid and flex box. 
+
 Technologies used:
-JavaScript, SCSS, CSS, html and webpack. 
-For the products data I built a simple node API using express, which can be found in the ElectroAPI repo.
-The starting JavaScript file: App.js
+JavaScript, SCSS, CSS, html, and  webpack.
+
+The app’s starting JavaScript file: App.js.
+
+For the products data I built a simple Node.js API using Express.js, which can be found in the ElectroAPI repo.
 
 Link: http://benjamingomori.com/electro/
+

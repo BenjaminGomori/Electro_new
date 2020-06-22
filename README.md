@@ -6,7 +6,7 @@ In the application I make use of modern JavaScript syntax (such as classes, arro
 Technologies used:
 JavaScript, SCSS, CSS, html, and  webpack.
 
-The app’s starting JavaScript file: App.js.
+The app’s starting JavaScript file: /src/components/App.js.
 
 For the products data I built a simple Node.js API using Express.js, which can be found in the ElectroAPI repo.
 

@@ -6,6 +6,18 @@ export default class CartHeader {
 		this.description = null;
 		this._append();
 	}
+	
+		_append = () => {
+			this._initializeElement();
+			this._appendProductDiv();
+			this._appendProductTxt();
+			this._appendAmountTxt();
+			this._appendPriceTxt();
+			this._appendTotalPriceTxt();
+
+			this.hook.insertAdjacentElement('beforeend', this.element);
+		};
+	
 		_initializeElement = () => {
 			this.element = document.createElement('div');
 			this.element.classList.add('cart-header');
@@ -46,14 +58,4 @@ export default class CartHeader {
 			this.element.insertAdjacentElement('beforeend', totalPrice);
 		};
 
-		_append = () => {
-			this._initializeElement();
-			this._appendProductDiv();
-			this._appendProductTxt();
-			this._appendAmountTxt();
-			this._appendPriceTxt();
-			this._appendTotalPriceTxt();
-
-			this.hook.insertAdjacentElement('beforeend', this.element);
-		};
 }

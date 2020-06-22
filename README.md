@@ -1,6 +1,6 @@
 # Electro_new
 
-Electo is an E-commerce front end project. Electo is a responsive and dynamic Single Page Application built using modern JavaScript syntax such as arrow function classes etc.
+Electo is an E-commerce front end project. Electo is a Single Page Application built using modern JavaScript syntax such as arrow function classes etc.
 The main structure of the page is built with CSS grid and flex box.
 Technologies used:
 JavaScript, SCSS, CSS, html and webpack. 
